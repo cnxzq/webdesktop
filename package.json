@@ -1,0 +1,17 @@
+{
+  "name": "webdesktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": "https://github.com/zq1988626/webdesktop.git",
+  "author": "zhuqiang <290353142@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "js-yaml": "^3.14.0",
+    "node-yaml": "^4.0.1",
+    "pug": "^3.0.0",
+    "sqlite3": "^5.0.0"
+  }
+}
