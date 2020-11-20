@@ -1,0 +1,165 @@
+[ '内网路由.bat', '添加上网路由192.168.1.1.bat' ]
+内网路由.bat
+添加上网路由192.168.1.1.bat
+
+E:\MyGit\webdesktop\startup>route add 172.17.6.0 mask 255.255.255.0 172.17.28.254 
+
+
+E:\MyGit\webdesktop\startup>route delete 0.0.0.0 
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.15.0 mask 255.255.255.0 172.17.28.254 
+
+ �������!
+
+
+
+E:\MyGit\webdesktop\startup>route add 0.0.0.0 mask 0.0.0.0 192.168.1.1 
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.22.0 mask 255.255.255.0 172.17.28.254 
+
+[node server] 开始加载路由
+ �������!
+
+[42;30m /api/desktop [40;32m desktop.js[0m
+[42;30m /api/index [40;32m index.js[0m
+[node server] 路由加载完毕
+[
+  'D:\\soft\\node-v12.10.0-win-x64\\node.exe',
+  'E:\\MyGit\\webdesktop\\main\\app.js',
+  '80'
+]
+http://127.0.0.1:80
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.23.0 mask 255.255.255.0 172.17.28.254 
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.28.0 mask 255.255.255.0 172.17.28.254 
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.28.0 mask 255.255.255.0 172.17.28.254 
+
+[ '内网路由.bat', '添加上网路由192.168.1.1.bat' ]
+内网路由.bat
+添加上网路由192.168.1.1.bat
+
+E:\MyGit\webdesktop\startup>
+route delete 0.0.0.0 
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.6.0 mask 255.255.255.0 172.17.28.254 
+
+ �������!
+
+ �������!
+
+
+
+E:\MyGit\webdesktop\startup>
+route add 0.0.0.0 mask 0.0.0.0 192.168.1.1 
+
+
+
+E:\MyGit\webdesktop\startup>
+route add 172.17.15.0 mask 255.255.255.0 172.17.28.254 
+
+ �������!
+
+ �������!
+
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.22.0 mask 255.255.255.0 172.17.28.254 
+
+[node server] 开始加载路由
+[42;30m /api/desktop [40;32m desktop.js[0m
+[42;30m /api/index [40;32m index.js[0m
+[node server] 路由加载完毕
+[
+  'D:\\soft\\node-v12.10.0-win-x64\\node.exe',
+  'E:\\MyGit\\webdesktop\\main\\app.js',
+  '80'
+]
+ �������!
+
+http://127.0.0.1:80
+
+
+E:\MyGit\webdesktop\startup>
+route
+ add 172.17.23.0 mask 255.255.255.0 172.17.28.254 
+
+
+ �������!
+
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.28.0 mask 255.255.255.0 172.17.28.254 
+
+ �������!
+
+
+
+E:\MyGit\webdesktop\startup>
+route
+ add 172.17.28.0 mask 255.255.255.0 172.17.28.254 
+
+
+[ '内网路由.bat', '添加上网路由192.168.1.1.bat' ]
+内网路由.bat
+添加上网路由192.168.1.1.bat
+
+E:\MyGit\webdesktop\startup>
+route add 172.17.6.0 mask 255.255.255.0 172.17.28.254 
+
+
+E:\MyGit\webdesktop\startup>route delete 0.0.0.0 
+
+ �������!
+
+ �������!
+
+
+E:\MyGit\webdesktop\startup>route add 0.0.0.0 mask 0.0.0.0 192.168.1.1 
+
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.15.0 mask 255.255.255.0 172.17.28.254 
+
+ �������!
+
+ �������!
+
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.22.0 mask 255.255.255.0 172.17.28.254 
+
+[node server] 开始加载路由
+[42;30m /api/desktop [40;32m desktop.js[0m
+[42;30m /api/index [40;32m index.js[0m
+[node server] 路由加载完毕
+[
+  'D:\\soft\\node-v12.10.0-win-x64\\node.exe',
+  'E:\\MyGit\\webdesktop\\main\\app.js',
+  '80'
+]
+ �������!
+
+http://127.0.0.1:80
+
+E:\MyGit\webdesktop\startup>route add 172.17.23.0 mask 255.255.255.0 172.17.28.254 
+
+ �������!
+
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.28.0 mask 255.255.255.0 172.17.28.254 
+
+ �������!
+
+
+
+E:\MyGit\webdesktop\startup>route add 172.17.28.0 mask 255.255.255.0 172.17.28.254 
+

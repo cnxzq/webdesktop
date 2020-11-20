@@ -7,10 +7,14 @@ const rootpath = path.join(__dirname,"public");
 const viewspath = path.join(__dirname,"views");
 const routerpath = path.join(__dirname,"router");
 
+const port = process.argv[2]||80;
+
+
+
 app.set('views',viewspath);
 app.set('view engine', 'pug');
 
-// 使用中间件处理动态也买你
+// 使用中间件处理动态
 app.get("/*",middle_view({cwd:path.join(__dirname)}))
 
 app.use(express.static(rootpath))
@@ -19,7 +23,6 @@ app.use(express.static(rootpath))
 app.all("/open",function(req,res){
     res.send(`<p>hey</p>`)
 })
-
 
 function usedev(app){
     console.log('[node server] 开始加载路由');
@@ -40,7 +43,8 @@ function usedev(app){
 }
 
 usedev(app).then(()=>{
-    app.listen(80,"127.0.0.1",function(){
-        console.log("http://127.0.0.1:80")
+    console.log(process.argv)
+    app.listen(port,"127.0.0.1",function(){
+        console.log("http://127.0.0.1:"+port)
     })
 })

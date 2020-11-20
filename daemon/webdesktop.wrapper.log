@@ -1,0 +1,47 @@
+2020-11-17 15:50:24 - Starting D:\soft\node-v12.10.0-win-x64\node.exe  --harmony E:\MyGit\webdesktop\node_modules\node-windows\lib\wrapper.js --file E:\MyGit\webdesktop\index.js --scriptoptions=savepid --log "Web Desktop wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-17 15:50:24 - Started 21492
+2020-11-17 15:51:51 - Stopping webdesktop.exe
+2020-11-17 15:51:51 - ProcessKill 21492
+2020-11-17 15:51:51 - Shutdown exception
+Message:系统正在关机。 (异常来自 HRESULT:0x8007045B)
+Stacktrace:   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.WrapperService.GetChildPids(Int32 pid)
+   在 winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   在 winsw.WrapperService.StopIt()
+   在 winsw.WrapperService.OnShutdown()
+2020-11-17 15:52:38 - Starting D:\soft\node-v12.10.0-win-x64\node.exe  --harmony E:\MyGit\webdesktop\node_modules\node-windows\lib\wrapper.js --file E:\MyGit\webdesktop\index.js --scriptoptions=savepid --log "Web Desktop wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-17 15:52:38 - Started 5552
+2020-11-18 09:48:51 - Stopping webdesktop.exe
+2020-11-18 09:48:51 - ProcessKill 5552
+2020-11-18 09:48:52 - Shutdown exception
+Message:系统正在关机。 (异常来自 HRESULT:0x8007045B)
+Stacktrace:   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.WrapperService.GetChildPids(Int32 pid)
+   在 winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   在 winsw.WrapperService.StopIt()
+   在 winsw.WrapperService.OnShutdown()
+2020-11-18 09:50:02 - Starting D:\soft\node-v12.10.0-win-x64\node.exe  --harmony E:\MyGit\webdesktop\node_modules\node-windows\lib\wrapper.js --file E:\MyGit\webdesktop\index.js --scriptoptions=savepid --log "Web Desktop wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-18 09:50:02 - Started 5632
+2020-11-18 11:21:11 - Stopping webdesktop.exe
+2020-11-18 11:21:11 - ProcessKill 5632
+2020-11-18 11:21:11 - Shutdown exception
+Message:系统正在关机。 (异常来自 HRESULT:0x8007045B)
+Stacktrace:   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.WrapperService.GetChildPids(Int32 pid)
+   在 winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   在 winsw.WrapperService.StopIt()
+   在 winsw.WrapperService.OnShutdown()
+2020-11-18 11:21:58 - Starting D:\soft\node-v12.10.0-win-x64\node.exe  --harmony E:\MyGit\webdesktop\node_modules\node-windows\lib\wrapper.js --file E:\MyGit\webdesktop\index.js --scriptoptions=savepid --log "Web Desktop wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-18 11:21:58 - Started 5584
